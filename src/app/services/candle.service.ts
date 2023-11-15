@@ -14,6 +14,11 @@ export class CandleService {
   getAllProducts(): Observable<Candles[]> {
     return this.http.get<Candles[]>(this.datasource);
   }
+
+  getCandleByID(id: number): Observable<Candles> {
+    return this.http.get<Candles>(this.datasource + "/" + id);
+}
+
   createNewProduct(newCandle: Candles): Observable<Candles> {
     return this.http.post<Candles>(this.datasource, newCandle);
   }

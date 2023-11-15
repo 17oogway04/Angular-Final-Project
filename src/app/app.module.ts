@@ -15,6 +15,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { HttpClientModule } from '@angular/common/http';
 import { ProductlistComponent } from './components/productlist/productlist.component';
+import { ProductdetailsComponent } from './components/productdetails/productdetails.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { ProductlistComponent } from './components/productlist/productlist.compo
     AppComponent,
     HomeComponent,
     ProductlistComponent,
+    ProductdetailsComponent,
   ],
   imports: [
     BrowserModule,
