@@ -1,8 +1,21 @@
 .example-card {
-    max-width: 400px;
-  }
+  max-width: 300px;
+  
+}
 
-img{
-    max-width: 40%;
-    object-fit: cover;
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h5 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Libre Baskerville', serif;
 }
