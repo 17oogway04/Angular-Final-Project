@@ -9,16 +9,19 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatDividerModule} from '@angular/material/divider';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { HttpClientModule } from '@angular/common/http';
+import { ProductlistComponent } from './components/productlist/productlist.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    ProductlistComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatButtonModule,
     MatCardModule,
     MatGridListModule,
+    MatDividerModule
     
    
   ],

@@ -1,0 +1,18 @@
+<h1>List of Products</h1>
+<mat-divider></mat-divider>
+<ul *ngFor="let product of productList">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="{{product.imageUrl}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{product.itemName}}</h5>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">${{product.price}}</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</ul>
