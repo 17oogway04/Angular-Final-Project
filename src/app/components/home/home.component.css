@@ -12,5 +12,8 @@
     margin: 3px;
 }
 
+img{
+    object-fit: contain;
+}
 
 
