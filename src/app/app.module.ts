@@ -14,16 +14,17 @@ import {MatDividerModule} from '@angular/material/divider';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { HttpClientModule } from '@angular/common/http';
-import { ProductlistComponent } from './components/productlist/productlist.component';
-import { ProductdetailsComponent } from './components/productdetails/productdetails.component';
+import { ProductlistComponent } from './products/productlist/productlist.component';
+import { ProductdetailsComponent } from './products/productdetails/productdetails.component';
+import { AddCandleComponent } from './products/add-candle/add-candle.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ProductlistComponent,
-    ProductdetailsComponent,
+   
+   
   ],
   imports: [
     BrowserModule,

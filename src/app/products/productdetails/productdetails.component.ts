@@ -9,6 +9,7 @@ import { CandleService } from 'src/app/services/candle.service';
   styleUrls: ['./productdetails.component.css']
 })
 export class ProductdetailsComponent implements OnInit{
+  
   id: number = 0;
 
   currentCandle: Candles = new Candles()
