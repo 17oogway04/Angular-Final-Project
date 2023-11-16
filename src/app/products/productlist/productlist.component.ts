@@ -9,14 +9,18 @@ import { CandleService } from 'src/app/services/candle.service';
 })
 export class ProductlistComponent {
 
-  productList: Candles[] = []
+ candleList: Candles[] = []
 
   constructor(private candleService: CandleService) {}
 
   ngOnInit(): void{
-    this.candleService.getAllProducts().subscribe(foundProducts => {
-      console.log(foundProducts);
-      this.productList = foundProducts;
+    this.loadCandles();
+  }
+
+  loadCandles() {
+    this.candleService.getAllProducts().subscribe(foundCandles => {
+      console.log(foundCandles);
+      this.candleList = foundCandles;
     })
   }
 }
