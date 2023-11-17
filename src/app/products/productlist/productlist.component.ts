@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Candles } from 'src/app/models/candles';
-import { CandleService } from 'src/app/services/candle.service';
+import { Candles } from 'src/app/products/models/candles';
+import { CandleService } from 'src/app/products/services/candle.service';
 
 @Component({
   selector: 'app-productlist',
@@ -9,7 +9,7 @@ import { CandleService } from 'src/app/services/candle.service';
 })
 export class ProductlistComponent {
 
- candleList: Candles[] = []
+ candleList: Candles[] = [];
 
   constructor(private candleService: CandleService) {}
 
