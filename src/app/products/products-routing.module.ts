@@ -6,10 +6,11 @@ import { EditCandleComponent } from "./edit-candle/edit-candle.component";
 import { NgModule } from "@angular/core";
 
 const routes: Routes = [
-    { path: '', component: ProductlistComponent },
-    { path: 'add', component: AddCandleComponent},
-    { path: ':id', component: ProductdetailsComponent },
-    { path: 'edit/:id', component: EditCandleComponent}
+    { path: "", component: ProductlistComponent },
+    { path: "products", component: ProductlistComponent },
+    { path: "add", component: AddCandleComponent},
+    { path: ":id", component: ProductdetailsComponent },
+    { path: "edit/:id", component: EditCandleComponent}
 ];
 
 @NgModule({

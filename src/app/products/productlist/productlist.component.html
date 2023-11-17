@@ -7,7 +7,7 @@
             <img src="{{candle.imageUrl}}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">{{candle.itemName}}</h5>
-                <button routerLink='["/product"]' type=“button”>View</button>
+                <button [routerLink]='["/products", candle.id]' type=“button”>View</button>
 
             </div>
             <div class="card-footer">
