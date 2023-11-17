@@ -6,6 +6,7 @@ import { AddCandleComponent } from './add-candle/add-candle.component';
 import { EditCandleComponent } from './edit-candle/edit-candle.component';
 import { CandleService } from './services/candle.service';
 import { ProductRoutingModule } from './products-routing.module';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 
@@ -18,7 +19,8 @@ import { ProductRoutingModule } from './products-routing.module';
   ],
   imports: [
     CommonModule,
-    ProductRoutingModule
+    ProductRoutingModule,
+    MatSidenavModule
   ],
   providers: [CandleService]
 })
