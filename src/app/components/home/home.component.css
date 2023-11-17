@@ -19,5 +19,9 @@
 }
 
 img {
-    object-fit: contain;
+  object-fit: cover;
+}
+
+#home{
+    margin: 50px;
 }
