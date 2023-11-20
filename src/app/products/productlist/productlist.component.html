@@ -1,31 +1,14 @@
 <h1>Candles</h1>
-
-
-<!-- <div *ngFor="let candle of candleList" class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-        <div class="card h-100">
-            <img src="{{candle.imageUrl}}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">{{candle.itemName}}</h5>
-                <button [routerLink]='["/products", candle.id]' type=“button”>View</button>
-
-            </div>
-            <div class="card-footer">
-                <small class="text-body-secondary">${{candle.price}}</small>
-
-            </div>
-        </div>
-    </div>
-   
-
-  
-
-</div> -->
-
 <mat-drawer-container class="example-container">
-    <mat-drawer class="sidenav"mode="side" opened>Drawer content</mat-drawer>
+    <mat-drawer class="sidenav" mode="side" opened>
+
+        <button type="button" class="btn btn-outline-dark" [routerLink]='["/products/add"]'>ADD</button>
+
+    </mat-drawer>
+
+
     <mat-drawer-content>
-        <div class="card mb-3" style="max-width: 900px;" *ngFor="let candle of candleList">
+        <!-- <div class="card mb-3" style="max-width: 900px;" *ngFor="let candle of candleList">
             <div class="row g-0">
                 <div class="col-md-4">
                     <img src="{{candle.imageUrl}}" class="img-fluid rounded-start" alt="...">
@@ -33,12 +16,38 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">{{candle.itemName}}</h5>
-                        <button [routerLink]='["/products", candle.id]' type=“button”>View</button>
+                        <p class="card-text"><small class="text-body-secondary">${{candle.price}}</small></p>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-outline-dark"
+                                [routerLink]='["/products", candle.id]'>View</button>
+                            <button type="button" class="btn btn-outline-dark"
+                                [routerLink]='["/products/edit", candle.id]'>Edit</button>
+                            <button type="button" class="btn btn-outline-dark"
+                                (click)="onDelete(candle.id)">Delete</button>
+                        </div>
 
-                        <p class="card-text"><small class="text-body-secondary">{{candle.price}}</small></p>
                     </div>
                 </div>
             </div>
+        </div> -->
+        <div class="row g-0">
+        <div class="card" style="width: 18rem;" *ngFor="let candle of candleList">
+
+            <img src="{{candle.imageUrl}}" class="card-img-top" alt="...">
+
+            <div class="card-body">
+                <h5 class="card-title">{{candle.itemName}}</h5>
+
+                <p class="card-text">${{candle.price}}</p>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-outline-dark"
+                        [routerLink]='["/products", candle.id]'>View</button>
+                    <button type="button" class="btn btn-outline-dark"
+                        [routerLink]='["/products/edit", candle.id]'>Edit</button>
+                    <button type="button" class="btn btn-outline-dark" (click)="onDelete(candle.id)">Delete</button>
+                </div>
+            </div>
+        </div>
         </div>
 
     </mat-drawer-content>

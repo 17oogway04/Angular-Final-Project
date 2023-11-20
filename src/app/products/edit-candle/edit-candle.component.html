@@ -1,1 +1,21 @@
-<p>edit-candle works!</p>
+<h1>Edit Product</h1>
+
+<form #form="ngForm" (ngSubmit)="onSubmit()">
+    <label>Candle Name</label>
+    <input type="text" name="itemName" [(ngModel)]="currentCandle.itemName">
+
+    <label>Candle Description</label>
+    <input type="text" name="description" [(ngModel)]="currentCandle.description">
+
+    <label>Candle Price </label>
+    <input type="number" name="price" [(ngModel)]="currentCandle.price">
+
+    <label>Candle Image</label>
+    <input type="string" name="imageUrl" [(ngModel)]="currentCandle.imageUrl">
+
+    <label>Candle Size</label>
+    <input type="number" name="itemSize" [(ngModel)]="currentCandle.itemSize">
+
+    <button type="submit">EDIT CANDLE</button>
+
+</form>

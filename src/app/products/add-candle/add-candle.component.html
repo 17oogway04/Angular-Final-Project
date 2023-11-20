@@ -1,1 +1,20 @@
-<p>add-candle works!</p>
+<h1>Create a New Candle</h1>
+
+<form #form="ngForm" (ngSubmit)="onSubmit()">
+    <label>Candle Name</label>
+    <input type="text" name="itemName" [(ngModel)]="newCandle.itemName">
+
+    <label>Candle Description</label>
+    <input type="text" name="description" [(ngModel)]="newCandle.description">
+    
+    <label>Candle Price</label>
+    <input type="number" name="price" [(ngModel)]="newCandle.price">
+    
+    <label>Candle Size</label>
+    <input type="number" name="itemSize" [(ngModel)]="newCandle.itemSize">
+
+    <label>Candle Image</label>
+    <input type="text" name="imageUrl" [(ngModel)]="newCandle.imageUrl">
+
+    <button type="submit">CREATE</button>
+</form>
