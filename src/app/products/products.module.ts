@@ -7,6 +7,7 @@ import { EditCandleComponent } from './edit-candle/edit-candle.component';
 import { CandleService } from './services/candle.service';
 import { ProductRoutingModule } from './products-routing.module';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -20,7 +21,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
   imports: [
     CommonModule,
     ProductRoutingModule,
-    MatSidenavModule
+    MatSidenavModule,
+ FormsModule 
   ],
   providers: [CandleService]
 })

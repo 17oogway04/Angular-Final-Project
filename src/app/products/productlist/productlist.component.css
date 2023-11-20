@@ -18,9 +18,20 @@ h1 {
 h5 {
   font-family: 'Cedarville Cursive', cursive;
   font-family: 'Libre Baskerville', serif;
+  text-align: center;
 }
 
 .sidenav{
   width: 400px;
 }
+
+.example-container{
+  margin-left: 100px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+
 

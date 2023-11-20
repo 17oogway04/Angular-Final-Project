@@ -1,28 +1,28 @@
 {
-    "candles": [
-        {
-            "id": 1,
-            "itemName": "Sweet Cake",
-            "description": "Vivamus blandit sit amet dolor at eleifend. Nunc a tellus ullamcorper, vestibulum lacus eu, volutpat arcu. Vestibulum ut ultricies nisl. Nullam suscipit posuere neque, sed blandit eros tincidunt quis. Nulla ultrices sapien eget nisl rhoncus, sed finibus urna consequat. Duis congue ullamcorper ipsum. Integer ac orci porta metus rhoncus ullamcorper. Praesent dolor elit, pulvinar in nibh sit amet, tempor aliquam lorem.",
-            "price": 15,
-            "imageUrl": "https://images.unsplash.com/photo-1602523961358-f9f03dd557db?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "itemSize": 5
-        },
-        {
-            "id": 2,
-            "itemName": "Lil' Flickers",
-            "description": "Aenean vitae pellentesque massa, vitae commodo ipsum. Fusce vulputate posuere ultrices. Vivamus semper leo vel viverra suscipit. Aliquam fermentum in purus ut efficitur. Integer faucibus nisi sit amet varius pulvinar. Vestibulum mattis, nibh nec gravida lobortis, mauris dui cursus tellus, quis efficitur enim odio sed neque. Cras erat erat, vestibulum id aliquet id, bibendum vel erat. Vivamus eu vehicula arcu. Donec tempor velit eget mi placerat pulvinar. Pellentesque a egestas ligula.",
-            "price": 10,
-            "imageUrl": "https://images.unsplash.com/photo-1605101600616-a8c6db5b98aa?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "itemSize": 5
-        },
-        {
-            "id": 3,
-            "itemName": "Hello Spring",
-            "description": "Maecenas suscipit nulla eu sem ultricies, vitae maximus justo pellentesque. Pellentesque vitae placerat ex. Aliquam nec purus nunc. Duis ultricies erat sed purus vulputate luctus. Aliquam consequat blandit lectus, id pellentesque risus feugiat id. Integer et augue et tellus auctor faucibus quis eget tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum enim non commodo maximus. Phasellus a metus in est tincidunt viverra et quis massa. Donec posuere viverra elementum. Nam id varius elit. Aliquam eget porttitor odio. Nunc sed porttitor odio. Aenean vulputate faucibus enim in sollicitudin.",
-            "price": 8,
-            "imageUrl": "https://images.unsplash.com/photo-1593542468714-ac3ba4b38d43?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "itemSize": 5
-        }
-    ]
+  "candles": [
+    {
+      "id": 1,
+      "itemName": "Sweet Cake",
+      "description": "Vivamus blandit sit amet dolor at eleifend. Nunc a tellus ullamcorper, vestibulum lacus eu, volutpat arcu. Vestibulum ut ultricies nisl. Nullam suscipit posuere neque, sed blandit eros tincidunt quis. Nulla ultrices sapien eget nisl rhoncus, sed finibus urna consequat. Duis congue ullamcorper ipsum. Integer ac orci porta metus rhoncus ullamcorper. Praesent dolor elit, pulvinar in nibh sit amet, tempor aliquam lorem.",
+      "price": 2000,
+      "imageUrl": "https://images.unsplash.com/photo-1602523961358-f9f03dd557db?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itemSize": 8
+    },
+    {
+      "id": 2,
+      "itemName": "Lil' Flickers",
+      "description": "Aenean vitae pellentesque massa, vitae commodo ipsum. Fusce vulputate posuere ultrices. Vivamus semper leo vel viverra suscipit. Aliquam fermentum in purus ut efficitur. Integer faucibus nisi sit amet varius pulvinar. Vestibulum mattis, nibh nec gravida lobortis, mauris dui cursus tellus, quis efficitur enim odio sed neque. Cras erat erat, vestibulum id aliquet id, bibendum vel erat. Vivamus eu vehicula arcu. Donec tempor velit eget mi placerat pulvinar. Pellentesque a egestas ligula.",
+      "price": 10,
+      "imageUrl": "https://images.unsplash.com/photo-1605101600616-a8c6db5b98aa?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itemSize": 5
+    },
+    {
+      "id": 3,
+      "itemName": "Pinewood Path",
+      "description": "This candle will walk you through the pines of California",
+      "price": 10,
+      "imageUrl": "https://images.unsplash.com/photo-1476873282730-9018f17bdf4e?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itemSize": 4
+    }
+  ]
 }

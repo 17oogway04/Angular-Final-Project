@@ -23,4 +23,11 @@ export class ProductlistComponent {
       this.candleList = foundCandles;
     })
   }
+
+  onDelete(id: number){
+    this.candleService.deleteCandleByID(id).subscribe(response => {
+        console.log(response);
+       this.loadCandles();
+    });
+}
 }
