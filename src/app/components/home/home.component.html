@@ -1,4 +1,4 @@
-<div id="home"class="card text-bg-dark" *ngFor="let candle of candleList" >
+<div id="home"class="card text-bg-dark" *ngFor="let candle of candleList | slice:0:3">
     <img src="{{candle.imageUrl}}" class="card-img" alt="..." width="300px" height="500px">
     <div class="card-img-overlay">
       <h5 class="card-title">{{candle.itemName}}</h5>

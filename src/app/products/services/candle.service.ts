@@ -19,6 +19,10 @@ export class CandleService {
     return this.http.get<Candles>(this.datasource + "/" + id);
 }
 
+ sortCandlesByPrice(): Observable<Candles[]>{
+  return this.http.get<Candles[]>(`${this.datasource}?price_gte=0&price_lte=20`);
+ }
+
   createNewProduct(newCandle: Candles): Observable<Candles> {
     return this.http.post<Candles>(this.datasource, newCandle);
   }
