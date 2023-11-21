@@ -1,3 +1,4 @@
+import { SlicePipe } from '@angular/common';
 import { Component } from '@angular/core';
 import { Candles } from 'src/app/products/models/candles';
 import { CandleService } from 'src/app/products/services/candle.service';

@@ -30,4 +30,10 @@ export class ProductlistComponent {
        this.loadCandles();
     });
 }
+
+  SortCandles(){
+    this.candleService.sortCandlesByPrice().subscribe(response => {
+      this.candleList = response;
+    })
+  }
 }
