@@ -36,4 +36,24 @@ export class ProductlistComponent {
       this.candleList = response;
     })
   }
+
+  SortCandles2040(){
+    this.candleService.sortCandlesByPrice20_40().subscribe(response => {
+      this.candleList = response;
+    })
+  }
+
+  sortCandlesHighToLow(){
+    this.candleService.sortCandlesHighToLow().subscribe(response => {
+      this.candleList = response;
+    })
+  }
+
+  sortCandlesLowToHigh(){
+    this.candleService.sortCandlesLowToHigh().subscribe(response => {
+      this.candleList = response;
+    })
+  }
+
+  
 }
