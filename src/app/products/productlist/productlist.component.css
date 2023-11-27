@@ -37,5 +37,14 @@ h5 {
   margin: 5px;
 }
 
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
 
+.sortH{
+  text-align: left;
+}
 

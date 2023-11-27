@@ -1,5 +1,15 @@
-<h1>{{currentCandle.itemName}}</h1>
-<p>{{currentCandle.description}}</p>
-<p>${{currentCandle.price}}</p>
-<p>{{currentCandle.itemSize}}oz</p>
+<div class="card mb-3" style="max-width: auto;">
+    <div class="row g-0">
+      <div class="col-md-5" >
+        <img src="{{currentCandle.imageUrl}}" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title">{{currentCandle.itemName}}</h5>
+          <p class="card-text">{{currentCandle.description}}</p>
+          <p class="card-text"><small class="text-body-secondary">${{currentCandle.price}} |  {{currentCandle.itemSize}}oz</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
 
