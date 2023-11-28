@@ -1,19 +1,22 @@
 <h1>Candles</h1>
 <mat-drawer-container class="example-container">
     <mat-drawer class="sidenav" mode="side" opened>
-        <h1 class="sortH">Sort</h1>
+        <h1 class="sortH">Sort By</h1>
         <mat-divider></mat-divider>
-        <mat-radio-group aria-label="Select an option">
-            <mat-radio-button value="1" (click)="loadCandles()">Sort: No Filter</mat-radio-button>
-            <mat-radio-button value="2" (click)="SortCandles()">Sort: $0 - $20</mat-radio-button>
-            <mat-radio-button value="3" (click)="SortCandles2040()">Sort: $20 - $40</mat-radio-button>
-            <mat-radio-button value="4" (click)="sortCandlesHighToLow()">Sort: High to Low</mat-radio-button>
-            <mat-radio-button value="5" (click)="sortCandlesLowToHigh()">Sort: Low to High</mat-radio-button>
 
-        </mat-radio-group>
+        <mat-chip-listbox aria-label="Fish selection" class="mat-mdc-chip-set-stacked">
+            <mat-chip-option (click)="loadCandles()">No Filter</mat-chip-option>
+            <mat-chip-option (click)="SortCandles()">$0 - $20</mat-chip-option>
+            <mat-chip-option (click)="SortCandles2040()">$20 - $40</mat-chip-option>
+            <mat-chip-option selected (click)="sortCandlesHighToLow()">High to Low</mat-chip-option>
+            <mat-chip-option (click)="sortCandlesLowToHigh()">Low to High</mat-chip-option>
+        </mat-chip-listbox>
+
+        <br>
+
         <button type="button" class="btn btn-outline-dark" [routerLink]='["/products/add"]'>ADD</button>
 
-       
+
     </mat-drawer>
 
 

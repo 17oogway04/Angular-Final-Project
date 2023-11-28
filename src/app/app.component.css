@@ -13,3 +13,16 @@ p {
     font-family: 'Libre Baskerville', serif;
     
 }
+footer {
+    bottom: 0;
+    position: sticky;
+    margin-top: auto;
+    text-align: center;
+    background-color: antiquewhite;
+    border: 5px solid antiquewhite;
+    width: 100%;
+  }
+.designer{
+    text-align: center;
+    margin: auto;
+}

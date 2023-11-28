@@ -12,6 +12,8 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatInputModule } from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatChipsModule} from '@angular/material/chips';
 
 
 
@@ -31,7 +33,9 @@ import {MatButtonModule} from '@angular/material/button';
     MatRadioModule,
     MatDividerModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    MatMenuModule,
+    MatChipsModule
 
   ],
   providers: [CandleService]

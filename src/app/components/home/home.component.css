@@ -1,5 +1,5 @@
 .example-card {
-    max-width: 400px;
+    max-width: 300px;
     margin: 25px;
 }
 
@@ -24,4 +24,5 @@ img {
 
 #home{
     margin: 50px;
+    margin-bottom: 10px;
 }

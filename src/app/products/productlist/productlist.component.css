@@ -48,3 +48,10 @@ h5 {
   text-align: left;
 }
 
+#sort{
+  margin: 5px;
+}
+
+.mat-mdc-chip-set {
+  max-width: 200px;
+}
