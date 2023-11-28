@@ -6,10 +6,13 @@ import { AddCandleComponent } from './add-candle/add-candle.component';
 import { EditCandleComponent } from './edit-candle/edit-candle.component';
 import { CandleService } from './services/candle.service';
 import { ProductRoutingModule } from './products-routing.module';
-import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { FormsModule } from '@angular/forms';
-import {MatRadioModule} from '@angular/material/radio';
-import {MatDividerModule} from '@angular/material/divider';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatInputModule } from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
+
 
 
 
@@ -24,9 +27,12 @@ import {MatDividerModule} from '@angular/material/divider';
     CommonModule,
     ProductRoutingModule,
     MatSidenavModule,
-  FormsModule,
-  MatRadioModule,
-  MatDividerModule 
+    FormsModule,
+    MatRadioModule,
+    MatDividerModule,
+    MatInputModule,
+    MatButtonModule
+
   ],
   providers: [CandleService]
 })
