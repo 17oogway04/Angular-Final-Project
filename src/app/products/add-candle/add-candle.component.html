@@ -1,6 +1,6 @@
 <h1>Create a New Candle</h1>
 
-<form #form="ngForm" (ngSubmit)="onSubmit()">
+<!-- <form #form="ngForm" (ngSubmit)="onSubmit()">
     <label>Candle Name</label>
     <input type="text" name="itemName" [(ngModel)]="newCandle.itemName">
 
@@ -17,4 +17,39 @@
     <input type="text" name="imageUrl" [(ngModel)]="newCandle.imageUrl">
 
     <button type="submit">CREATE</button>
-</form>
+</form> -->
+
+<form class="example-form" #form="ngForm" (ngSubmit)="onSubmit()">
+   
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width">
+        <mat-label>Candle Name</mat-label>
+        <input matInput type="text" name="itemName" [(ngModel)]="newCandle.itemName">
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width">
+        <mat-label>Candle Image</mat-label>
+        <input matInput type="text" name="imageUrl" [(ngModel)]="newCandle.imageUrl">
+      </mat-form-field></td>
+    </tr></table>
+  
+    <p>
+      <mat-form-field class="example-full-width">
+        <mat-label>Candle Description</mat-label>
+        <textarea matInput placeholder="Ex. This candle is amazing" type="text" name="description" [(ngModel)]="newCandle.description"></textarea>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Candle Size</mat-label>
+        <textarea matInput type="number" name="itemSize" [(ngModel)]="newCandle.itemSize"></textarea>
+      </mat-form-field>
+    </p>
+  
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width">
+        <mat-label>Candle Price</mat-label>
+        <input matInput placeholder="Ex. 10" type="number" name="price" [(ngModel)]="newCandle.price">
+      </mat-form-field></td>
+     
+    </tr></table>
+    <button type="submit" mat-raised-button>CREATE CANDLE</button>
+
+  </form>

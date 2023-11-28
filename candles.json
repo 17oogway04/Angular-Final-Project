@@ -19,7 +19,7 @@
     {
       "id": 3,
       "itemName": "Pinewood Path",
-      "description": "This candle will walk you through the pines of California",
+      "description": "Pellentesque facilisis ullamcorper pharetra. Fusce vestibulum pretium justo vitae rutrum. Etiam finibus vel purus in fermentum. Sed et lobortis metus, et ultricies dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris fringilla tristique faucibus. Quisque elementum finibus magna, nec maximus nisl scelerisque nec.",
       "price": 10,
       "imageUrl": "https://images.unsplash.com/photo-1476873282730-9018f17bdf4e?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "itemSize": 4
@@ -35,10 +35,18 @@
     {
       "id": 5,
       "itemName": "Deep breathe",
-      "description": "asdlfkj asdnfowfno w owhrgwongoqn o qefhoqnfoqfqeof ",
+      "description": "Suspendisse accumsan orci quis mattis tincidunt. Fusce volutpat, arcu vel faucibus pharetra, justo nisi blandit nisl, ac consectetur nunc enim in urna. Nullam sagittis luctus urna et sagittis. Nunc consectetur, orci sit amet hendrerit tristique, lorem ligula porta neque, sit amet dignissim nunc velit non est. Aliquam ac pulvinar purus. Mauris vitae commodo lacus. Aenean scelerisque, nibh at sollicitudin ornare, ligula odio mollis justo, a dapibus nisi metus et justo. Aliquam eget dolor at quam blandit pretium. Vivamus ac suscipit magna. Donec rhoncus, felis non condimentum malesuada, ipsum purus scelerisque nibh, non sodales orci diam eu lorem. Phasellus tortor ex, lacinia a vestibulum et, tincidunt ac elit. Sed nec posuere tellus. Curabitur at feugiat metus, quis tincidunt sem.",
       "price": 25,
       "imageUrl": "https://images.unsplash.com/photo-1554167838-07aa5723df3a?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "itemSize": 8
+    },
+    {
+      "id": 6,
+      "itemName": "Burberry",
+      "description": "Pellentesque facilisis ullamcorper pharetra. Fusce vestibulum pretium justo vitae rutrum. Etiam finibus vel purus in fermentum. Sed et lobortis metus, et ultricies dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris fringilla tristique faucibus. Quisque elementum finibus magna, nec maximus nisl scelerisque nec.\n\n",
+      "price": 21,
+      "imageUrl": "https://images.unsplash.com/photo-1596568473972-9b7ad7c4a197?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itemSize": "10"
     }
   ]
 }

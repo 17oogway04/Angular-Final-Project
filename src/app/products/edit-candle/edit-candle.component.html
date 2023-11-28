@@ -1,21 +1,39 @@
 <h1>Edit Product</h1>
 
-<form #form="ngForm" (ngSubmit)="onSubmit()">
-    <label>Candle Name</label>
-    <input type="text" name="itemName" [(ngModel)]="currentCandle.itemName">
+<form class="example-form" #form="ngForm" (ngSubmit)="onSubmit()">
+   
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width">
+        <mat-label >Candle Name</mat-label>
+        <input matInput type="text" name="itemName" [(ngModel)]="currentCandle.itemName">
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width">
+        <mat-label>Image</mat-label>
+        <input matInput type="string" name="imageUrl" [(ngModel)]="currentCandle.imageUrl">
+      </mat-form-field></td>
+    </tr></table>
+  
+    <p>
+      <mat-form-field class="example-full-width">
+        <mat-label>Description</mat-label>
+        <textarea matInput placeholder="Ex. This candle is amazing" type="text" name="description" [(ngModel)]="currentCandle.description"></textarea>
+      </mat-form-field>
+    </p>
+  
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width">
+        <mat-label>Price</mat-label>
+        <input matInput placeholder="Ex. 10" type="number" name="price" [(ngModel)]="currentCandle.price">
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width">
+        <mat-label>Size</mat-label>
+        <input matInput placeholder="Ex. 8" type="number" name="itemSize" [(ngModel)]="currentCandle.itemSize">
+      </mat-form-field></td>
+      
+    </tr></table>
 
-    <label>Candle Description</label>
-    <input type="text" name="description" [(ngModel)]="currentCandle.description">
-
-    <label>Candle Price </label>
-    <input type="number" name="price" [(ngModel)]="currentCandle.price">
-
-    <label>Candle Image</label>
-    <input type="string" name="imageUrl" [(ngModel)]="currentCandle.imageUrl">
-
-    <label>Candle Size</label>
-    <input type="number" name="itemSize" [(ngModel)]="currentCandle.itemSize">
-
-    <button type="submit">EDIT CANDLE</button>
-
-</form>
+    <p>
+        <button type="submit" mat-raised-button>EDIT CANDLE</button>
+       
+    </p>
+  </form>
