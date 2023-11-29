@@ -25,8 +25,12 @@ h5 {
   width: 400px;
 }
 
-.example-container{
-  margin-left: 100px;
+#Filters{
+  margin-left: 10px;
+}
+
+#Add{
+  margin-left: 10px;
 }
 
 .card-body{
@@ -54,4 +58,8 @@ h5 {
 
 .mat-mdc-chip-set {
   max-width: 200px;
+}
+
+#searchBar{
+  max-width: 400px;
 }

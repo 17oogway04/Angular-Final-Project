@@ -2,11 +2,11 @@
   "candles": [
     {
       "id": 1,
-      "itemName": "Sweet Cake",
+      "itemName": "Sweet kake",
       "description": "Vivamus blandit sit amet dolor at eleifend. Nunc a tellus ullamcorper, vestibulum lacus eu, volutpat arcu. Vestibulum ut ultricies nisl. Nullam suscipit posuere neque, sed blandit eros tincidunt quis. Nulla ultrices sapien eget nisl rhoncus, sed finibus urna consequat. Duis congue ullamcorper ipsum. Integer ac orci porta metus rhoncus ullamcorper. Praesent dolor elit, pulvinar in nibh sit amet, tempor aliquam lorem.",
-      "price": 2001,
+      "price": 2000,
       "imageUrl": "https://images.unsplash.com/photo-1602523961358-f9f03dd557db?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "itemSize": 8
+      "itemSize": 10
     },
     {
       "id": 2,
@@ -42,11 +42,27 @@
     },
     {
       "id": 6,
-      "itemName": "Burberry",
-      "description": "Pellentesque facilisis ullamcorper pharetra. Fusce vestibulum pretium justo vitae rutrum. Etiam finibus vel purus in fermentum. Sed et lobortis metus, et ultricies dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris fringilla tristique faucibus. Quisque elementum finibus magna, nec maximus nisl scelerisque nec.\n\n",
+      "itemName": "Warmth",
+      "description": "Suspendisse felis quam, ultrices non aliquet et, vehicula et enim. Pellentesque imperdiet mi libero, ut feugiat massa condimentum non. Nulla et odio sit amet tellus dignissim mattis. Maecenas vehicula quam augue, vel elementum lacus dictum dapibus. Pellentesque porttitor elit a velit varius vulputate id at ipsum. Nulla facilisi. Phasellus convallis tellus at dui bibendum, ut consectetur tortor lobortis. Aliquam posuere iaculis libero eget porttitor. Vivamus laoreet, dui vitae rhoncus hendrerit, ex turpis efficitur libero, quis elementum velit tortor vel diam. Pellentesque volutpat nibh diam, vel mattis sem dignissim quis. Morbi neque eros, congue non tempus sed, eleifend a est. Morbi at nunc lacus. Proin feugiat dolor viverra nisl maximus, id euismod velit mattis. Sed sit amet odio quis dui commodo ullamcorper sed sed nunc. Sed vehicula eu tellus quis condimentum.",
+      "price": 30,
+      "imageUrl": "https://images.unsplash.com/photo-1570823635306-250abb06d4b3?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itemSize": "17"
+    },
+    {
+      "id": 7,
+      "itemName": "Seasons",
+      "description": "Curabitur a maximus neque. Aenean vitae leo vel felis auctor convallis. Quisque vitae augue dapibus, viverra magna ullamcorper, pulvinar nisi. Integer ante libero, sollicitudin id gravida eget, convallis vitae felis. Fusce finibus, purus ac gravida elementum, sapien nibh ornare nisl, ac rhoncus neque ligula ac nisi. Cras vel magna sit amet metus pharetra sodales volutpat malesuada sapien. Vestibulum dictum egestas dui, et tempor sem vestibulum at.",
+      "price": 25,
+      "imageUrl": "https://images.unsplash.com/photo-1602409339188-95d178a611a0?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itemSize": "9"
+    },
+    {
+      "id": 8,
+      "itemName": "Ocean Feels",
+      "description": "Nulla elit odio, ultricies congue nunc eget, consequat ornare nisl. Vivamus sollicitudin feugiat odio, a pulvinar lectus scelerisque venenatis. Proin lacinia, lacus vitae egestas imperdiet, eros lacus condimentum lorem, vel ultricies lacus sem id magna. In a libero turpis. Vivamus a placerat metus, a vestibulum lacus. Morbi vitae vehicula sapien, in tempus massa. Maecenas fermentum, lorem sed finibus varius, mauris lectus lobortis nisl, ac varius mauris dolor sit amet eros. In eget imperdiet nisi. Nullam sapien neque, vulputate molestie mi efficitur, tempus laoreet lorem. Nunc hendrerit nunc leo. Morbi at sollicitudin metus. Ut vehicula nibh et accumsan faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla a consectetur est. Morbi enim mauris, ullamcorper eu enim quis, hendrerit feugiat elit. Maecenas id varius ante.",
       "price": 21,
-      "imageUrl": "https://images.unsplash.com/photo-1596568473972-9b7ad7c4a197?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "itemSize": "10"
+      "imageUrl": "https://images.unsplash.com/photo-1528351655744-27cc30462816?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "itemSize": "16"
     }
   ]
 }

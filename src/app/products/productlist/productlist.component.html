@@ -4,23 +4,25 @@
         <h1 class="sortH">Sort By</h1>
         <mat-divider></mat-divider>
 
-        <mat-chip-listbox aria-label="Fish selection" class="mat-mdc-chip-set-stacked">
-            <mat-chip-option (click)="loadCandles()">No Filter</mat-chip-option>
-            <mat-chip-option (click)="SortCandles()">$0 - $20</mat-chip-option>
-            <mat-chip-option (click)="SortCandles2040()">$20 - $40</mat-chip-option>
-            <mat-chip-option selected (click)="sortCandlesHighToLow()">High to Low</mat-chip-option>
-            <mat-chip-option (click)="sortCandlesLowToHigh()">Low to High</mat-chip-option>
+        <mat-chip-listbox aria-label="Fish selection" class="mat-mdc-chip-set-stacked" id="Filters">
+            <mat-chip-option (click)="loadCandles()" color="warn">No Filter</mat-chip-option>
+            <mat-chip-option (click)="SortCandles()" color="warn">$0 - $20</mat-chip-option>
+            <mat-chip-option (click)="SortCandles2040()" color="warn">$20 - $40</mat-chip-option>
+            <mat-chip-option selected (click)="sortCandlesHighToLow()" color="warn">High to Low</mat-chip-option>
+            <mat-chip-option (click)="sortCandlesLowToHigh()" color="warn">Low to High</mat-chip-option>
         </mat-chip-listbox>
 
         <br>
 
-        <button type="button" class="btn btn-outline-dark" [routerLink]='["/products/add"]'>ADD</button>
+        <button type="button" class="btn btn-outline-dark" [routerLink]='["/products/add"]' id="Add">ADD</button>
 
 
     </mat-drawer>
 
 
     <mat-drawer-content>
+    
+
         <div class="row g-0" id="content">
             <div class="card" style="width: 18rem;" *ngFor="let candle of candleList">
 
